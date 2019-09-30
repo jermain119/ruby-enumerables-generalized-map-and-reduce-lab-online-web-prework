@@ -8,9 +8,9 @@ end
 negative_array
 end 
 
-def reduce(source_array, sp=0)
-  if sp
-    total = sp
+def reduce(source_array, starting_point=nil)
+  if starting_point
+    total = starting_point
     i = 0 
   else 
     total = source_array[0]
