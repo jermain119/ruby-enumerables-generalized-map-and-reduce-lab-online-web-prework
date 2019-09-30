@@ -9,7 +9,7 @@ end
 negative_array
 end 
 
-def reduce(source_array, sp=0)
+def reduce(source_array, sp=nil)
   if sp
     total = sp
     i = 0 
