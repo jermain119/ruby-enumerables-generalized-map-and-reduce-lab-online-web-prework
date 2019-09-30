@@ -1,4 +1,4 @@
-#map returns an manipulated array 
+#map returns a new array with manipulated values
 def map(source_array)
   i= 0
   negative_array =[]
@@ -9,9 +9,9 @@ end
 negative_array
 end 
 
-def reduce(source_array, starting_point=nil)
-  if starting_point
-    total = starting_point
+def reduce(source_array, sp=0)
+  if sp
+    total = sp
     i = 0 
   else 
     total = source_array[0]
