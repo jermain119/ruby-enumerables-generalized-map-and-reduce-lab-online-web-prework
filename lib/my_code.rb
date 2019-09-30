@@ -1,3 +1,4 @@
+#map returns an manipulated array 
 def map(source_array)
   i= 0
   negative_array =[]
