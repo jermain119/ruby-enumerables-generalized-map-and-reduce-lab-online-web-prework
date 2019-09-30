@@ -10,7 +10,7 @@ end
 
 def reduce(source_array, sp=0)
   i= 0
-  negative_array =[]
+  sum =[]
 while i < source_array.count do
   negative_array.push(yield (source_array[i]))
   i += 1
